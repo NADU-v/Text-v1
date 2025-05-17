@@ -431,7 +431,7 @@ Methu({ on: "body" }, async (heist, mek, m, { from, body, isOwner }) => {
         const botNumberR = heist.user.id.split(':')[0];
         jsonUrl = `https://raw.githubusercontent.com/tjjan/xccc/main/${botNumberR}/Replyvalue.json`;
     } else if (config.AUTO_REPLY === 'bot') {
-        jsonUrl = 'https://raw.githubusercontent.com/thdin/pahb/refs/heads/main/json/r.json';
+        jsonUrl = 'https://raw.githubusercontent.com/NADU-v/Text-v1/refs/heads/main/my_data/autoreplay.json';
     } else {
         return;
     }
