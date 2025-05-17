@@ -21,8 +21,8 @@ let fbmsg = `*🎥 METHU MD FB DL.🎥*
 
 await conn.sendMessage(from, { image: {url: fb.result.thumb }, caption: fbmsg }, { quoted: mek });
 
-await conn.sendMessage(from, { video: { url: fb.result.sd }, mimetype: "video/mp4", caption: `SD\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀᴅɪʏᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
-await conn.sendMessage(from, { video: { url: fb.result.hd }, mimetype: "video/mp4", caption: `HD\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀᴅɪʏᴀ ᴛᴇᴄʜ*` }, { quoted: mek });
+await conn.sendMessage(from, { video: { url: fb.result.sd }, mimetype: "video/mp4", caption: `SD\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ methu md*` }, { quoted: mek });
+await conn.sendMessage(from, { video: { url: fb.result.hd }, mimetype: "video/mp4", caption: `HD\n\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ methu md*` }, { quoted: mek });
 
 }catch(e){
 console.log(e)
